@@ -1,0 +1,38 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#banner"
+    ]
+  },
+  "list-context.image-list#banner": {
+    "children": [
+      "slider-layout#banner-images"
+    ],
+    "props": {
+      "height": 380,
+      "images": [
+        {
+          "image": "https://i.ibb.co/92rSD0Y/up-medal-banner1.png",
+          "mobileImage": "https://i.ibb.co/92rSD0Y/up-medal-banner1.png"
+        },
+        {
+          "image": "https://i.ibb.co/L0Gzq5q/up-medal-banner2.png",
+          "mobileImage": "https://i.ibb.co/L0Gzq5q/up-medal-banner2.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1        
+      },
+      "infinite": true,
+      "arrowSize": 15,      
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  }
+}

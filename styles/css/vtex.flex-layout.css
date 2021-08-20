@@ -1,0 +1,16 @@
+.flexRowContent {
+  background: #212121;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;    
+}
+
+.flexRowContent--main-footer-desktop {
+  background: #424242;
+  height: 5rem;
+}
+
+
+
+
+
